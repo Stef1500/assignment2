@@ -1,0 +1,40 @@
+1. $ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 729 bytes | 729.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Stef1500/assignment2.git
+   f4975e5..3807b75  master -> master
+
+2. There have been a total of 9 commits made to this repository, this was found using the command "git log --oneline"
+
+3. The README was last modified on Fri Feb 27 13:00:35 2026 -0500. This was found using the command "git log -- README.md"
+
+4. Branches are useful because they let you work on the project without affect the main code, you can make a copy of the code to 
+   add new features or fix bugs. Branches also allow developers to work in parallel, which means that multiple developers can work
+   on the project at the same time.
+
+5. git log returns a history of all commits made in the repository, and it can also track when a file was last modified. On the other hand,
+   git status returns the current state of the working directory, where git tells the user all modified, tracked, and untracked files.
+
+6. to track commits where Vehicle.h was one of the committed files I would use "git log -- Vehicle.h"
+
+7. I would use "git log --grep="file"
+
+8. Inheritance is where a child class inherits the attributes and methods of a parent class. Polymorphism is where a parent class has a method
+   that child classes can implement differently, allowing a function to work with different data types. Encapsulation is where direct access 
+   to the data of a class is restricted, making attributes private while having public methods to access those attributes.
+
+9. In the "Dictator and Lieutenants" workflow, there is a clear hierarchy where developers pull from the blessed repository, push their changes to 
+   their respective lieutenant repository, where they merge and solve any arising conflicts, and push their versions to the dictator repository. The
+   dictator then merges changes in the lieutenant repository, solves any conflicts, and pushes the final change to the blessed repository, which only
+   the dictator can access. On the other hand, in the integration manager workflow, the developers work on their own private repositories, then they
+   push their changes into their own public repository, where the integration manager pulls, merges, and solves any conflicts to then push the final
+   commit to the blessed repository.
+
+10. A team of 100 developers would benefit more from the "Dictator and lieutenants" workflow because merging the changes and solving conflicts 
+   of 100 developer would be too much for a single integration manager, while in the "Dictator and lieutenants" workflow, there are several lieutenants
+   that can divide the work evenly and focus on specific areas, scaling better than the "centralized" workflow.
