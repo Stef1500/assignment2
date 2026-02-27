@@ -1,7 +1,7 @@
 ----annotations----
 started and finished "Learn Git Branching" tutorials on February 26
 started and finished "Visualizing Git" on February 27
-started and finished the rest of the Git lab tutorials (git setup) on February 27
+started and finished the rest of the Git lab tutorials (git setup and gh auth) on February 27
 
 My GitHub account was created in May 2025
 
